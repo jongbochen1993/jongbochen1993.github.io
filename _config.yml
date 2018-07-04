@@ -1,20 +1,26 @@
 # Hexo Configuration
+
 ## Docs: https://hexo.io/docs/configuration.html
+
 ## Source: https://github.com/hexojs/hexo/
 
+
 # Site
-title: jongbichen1993
+title: ¡°³ÂÊåµÄ²©¿Í¡±
 subtitle:
+
 description:
-keywords:
-author: jongbochen1993
+
+author: ¡°³ÂÊå¡±
+
 language: zh-CN
 timezone:
 
-# URL
+
+# URL 
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://jongbochen1993.github.io
-root: /
+
+url: https://jongbochen1993.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -73,10 +79,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jekyll-theme-minimal
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-   deploy: git@github.com: jongbochen1993/jongbochen1993.github.io.git
-   type: git
-   branch: master
+
+deploy:
+  
+type: git 
+repository: https://github.com/jongbochen1993/jongbochen1993.github.io.git 
+branch: master
